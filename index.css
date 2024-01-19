@@ -1,0 +1,1197 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;900&display=swap');
+    font-family: 'Mulish', sans-serif;
+}
+:root {
+    --orange-color: #FF5400;
+    --menuetext-color: rgb(112, 110, 110);
+    --paragraph-text-color: white;
+    --background-color: rgba(11, 10, 10, 0.535);
+    --btn-background-color:rgba(255, 255, 255, 0.161);
+    --btn-font-color:rgb(132, 131, 131);
+    --hero-search-btn-container-bgcolor: rgba(255, 255, 255, 0.22);
+    --newslette-input-color:rgba(19, 19, 24, 0.05);
+}
+/* header css tags */
+.headersect , .popularTour, .destination, .whychoosing-container, .deals, .simple-perfect-place, .newsletter  {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 26%;
+}
+.menue {
+    display: flex;
+    margin-left: 5%;
+    
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--menuetext-color);
+    font-size: 19px;
+    margin-left: 10px;
+    margin-right: 6px;
+}
+.ahome {
+    color: var(--orange-color);
+}
+.hero-search {
+    background-image: url(Images/Group\ 13.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    background-position: center;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+.hero-search-container {
+    padding-top: 80px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.547);
+    height: 419px;
+    width: 100%;
+    border-radius: 10px;
+}
+.hero-search-title {
+    color: var(--paragraph-text-color);
+    font-size: 2.0rem;
+}
+.hero-search-para {
+    color: var(--paragraph-text-color);
+    font-size: 1.0rem;
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.hero-search-btn-container {
+    background-color: var(--hero-search-btn-container-bgcolor);
+    width: 50%;
+    margin: 0 auto;
+    height: 12%;
+    padding-top: 5px;
+    padding-right: 8px;
+    border-radius: 5px;
+}
+.btn-where, .btn-when, .btn-select, .btn-find {
+    width: 21%;
+    height: 90%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.btn-find, .ppbtn{
+    background-color: #FF5400;
+    border: none;
+}
+/* popular tour section styles */
+.popularTour {
+    margin-top: 70px;
+}
+.popularTourContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.popularTourcontent {
+    width: 50%;
+    padding-right: 40px;
+}
+.ppimage {
+    padding-left: 30px;
+}
+.pptitle , .pppara, .ppul{
+    padding-bottom: 25px;
+}
+li {
+    padding-bottom: 8px;
+}
+.ppbtn {
+    font-size: 1.rem;
+    color: white;
+    width: 110px;
+    height: 35px;
+    text-align: center;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+/* destination section style */
+.destincontainerdiv {
+    margin-top: 70px;
+    text-align: center;
+}
+.destinfirstdiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+
+    
+}
+.firstdivfirst {
+    background-image: url(Images/Rectangle\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 50%; */
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.firstdivsecond {
+    background-image: url(Images/Rectangle\ 8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 50%; */
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.headingfirst, .takbilaran {
+    margin-top: 26%;
+    font-size: 20px;
+    color: var(--paragraph-text-color);
+}
+.destinsecndiv {
+    display: grid;
+    grid-template-columns:310px 400px 310px;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.seconddivfirst-sebu {
+    background-image: url(Images/Rectangle\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: none;
+    border-radius: 5px;
+}
+.seconddivfirst-davao {
+    background-image: url(Images/Rectangle\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: none;
+    border-radius:5px;
+
+}
+.seconddivfirst-sultan {
+    background-image: url(Images/Rectangle\ 9.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: none;
+    border-radius:5px;
+}
+.sebu, .sultan {
+    margin-top: 45%;
+    font-size: 20px;
+    color: var(--paragraph-text-color);
+}
+.davao {
+    margin-top: 38%;
+    font-size: 20px;
+    color: var(--paragraph-text-color);
+}
+.destinthirddiv {
+    display: grid;
+    grid-template-columns:450px repeat(1, 1fr);
+    column-gap: 10px;
+    margin-top: 10px;
+}
+.thirddivfirst-palawan {
+    background-image: url(Images/Rectangle\ 11.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: none;
+    border-radius:5px;
+}
+.thirddivsecond-solo {
+    background-image: url(Images/Rectangle\ 10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: none;
+    border-radius:5px;
+}
+.palawan {
+    margin-top: 34%;
+    font-size: 20px;
+    color: var(--paragraph-text-color);
+}
+.solo {
+    margin-top: 28%;
+    font-size: 20px;
+    color: var(--paragraph-text-color);
+}
+.whychoosing-container {
+    text-align: center;
+    margin-top: 70px;
+}
+.whychoosing-description {
+    padding-bottom: 50px;
+    width: 50%;
+    margin-left: 25%;
+}
+.whychoosing-service {
+    display: flex;
+    column-gap: 40px;
+}
+.hotel, .worldclass-service {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    padding: 40px;
+    
+    
+}
+.hotel{
+    background-color: aliceblue;
+    border: 2px solid aliceblue;
+}
+.worldclass-service {
+    background-color: azure;
+    border: 2px solid azure;
+}
+.hotellogo, .servicelogo {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50%;
+}
+.bestprice {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 25%;
+    background-color: azure;
+    border: 2px solid azure;
+}
+.bestpricelogo {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 50%; 
+}
+/* Deals and Discount section */
+.deals {
+    margin-top: 70px;
+}
+.dealscontainer {
+    text-align: center;
+}
+.dealstitle {
+    font-size: 2rem;
+    padding-bottom: 40px;
+}
+.dealsdescription {
+    padding-bottom: 50px;
+    width: 50%;
+    margin:auto;
+}
+.tourtosebu, .borakaytour {
+    background-image: url(Images/cebu.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    
+
+}
+.sebutourdetails, .bora-tourdetails {
+    text-align: left;
+    padding: 30px 60px;
+}
+.vacation-details, .bora-vacation-details {
+    display: flex;
+    column-gap: 30px;
+}
+.cebutitledetails, .boholtitledetails, .bora-titledetails {
+    color: var(--menuetext-color);
+}
+.cebutourprice, .boholtourprice, .bora-tourprice {
+    font-size: 19px;
+    color: var(--orange-color);
+    padding-bottom: 20px;
+}
+.cebubookingbtn, .boholbookingbtn, .bora-bookingbtn {
+    background-color: #FF5400;
+    font-size: 2.0rem;
+    color: white;
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+.sebutourdetails, .bora-tourdetails {
+    background-color:rgba(255, 255, 255, 0.546);
+    width: 45%;
+    height: 70%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.watch, .max, .place{
+    color: var(--orange-color);
+}
+.vacation-description, .bora-vacation-description {
+    color: var(--menuetext-color);
+}
+.boholtour {
+    background-image: url(Images/boholchocomed.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+
+    
+}
+.boholtourdetails {
+    background-color:rgba(255, 255, 255, 0.562);
+    width: 45%;
+    height: 70%;
+    border: none;
+    padding: 20px 50px;
+    text-align: left;
+    border-radius: 10px;
+}
+.bohol-vacation {
+    display: flex;
+    column-gap: 30px;
+}
+.bohol-vacation {
+    color: var(--menuetext-color);
+
+}
+.borakaytour {
+    background-image: url(Images/Boracay_White_Beach.png);
+}
+
+/* end styling deals and discounts */
+/* simple perfect place styling */
+.simple-perfect-place {
+    text-align: center;
+}
+.simple-perfect-place-container {
+    display: flex;
+    /* align-content:left; */
+    margin-top: 50px;
+    padding: 10px;
+}
+.place-title {
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    text-align: left;
+}
+.videoclip{
+    width: 50%;
+    height: auto;
+   
+}
+.videoclipclass {
+    border: none;
+    border-radius: 10px;
+}
+.place-description {
+    color: var(--menuetext-color);
+}
+.btn-seemore{
+    background-color: #FF5400;
+    font-size: 1.5rem;
+    color: white;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.see-all-products{
+    background-color: #FF5400;
+    font-size: 1.0rem;
+    color: white;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.newsletter{
+    margin-top: 70px;
+}
+.newsletter-container{
+    display: flex;
+    padding: 5px;
+}
+.form {
+    width: 50%;
+    height: auto;
+    text-align: left;
+    padding-right: 5px;
+    border: 0.1rem solid #FF5400;
+    border-radius: 0.5rem;
+}
+.form-input {
+    width: 100%;
+}
+#name, #email{
+    background-color: var(--newslette-input-color);
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.subscribe {
+    background-color: var(--orange-color);
+    color: white;
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.newsletter-image {
+    width: 50%;
+    height: auto;
+    text-align: left;
+    padding-right: 5px;
+}
+.news-image{
+    width: 100%;
+    padding: 5px;
+}
+.saveup-btn {
+    background-color: var(--orange-color);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 300px;
+    top: -128px;
+    transform: rotate(-32deg);
+    width: 200px;
+    height: 70px;
+   
+
+}
+.footer-section {
+    background-color: var(--hero-search-btn-container-bgcolor);
+}
+.footer-container {
+    text-align: center;
+}
+.social-icons ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.social-icons ul li{
+    list-style: none;
+}
+.fbicon, .twit, .inst, .gith {
+    width: auto;
+    height: 70px;
+    color: var(--orange-color);
+}
+
+@media screen and (max-width:600px) {
+       .navcontainer{
+            display: flex;
+            flex-direction: column;
+    }
+    .menue {
+        text-align: center;
+    }
+    .a {
+        width: auto;
+        height: auto;
+        text-decoration: none;
+        text-align: center;
+        color: var(--menuetext-color);
+        font-size: 19px;
+    }
+    .hero-search-container .hero-search-title {
+        margin-top: 0px;
+        padding: 0px;
+        font-size: 1.5rem;
+    }
+    .hero-search-container .hero-search-btn-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        height: auto;
+    }
+    .hero-search-container .hero-search-btn-container .btn-where{
+        width: 80%;
+        height: 40px;
+        margin-bottom: 4px;
+    }
+    .hero-search-container .hero-search-btn-container .btn-when{
+        width: 80%;
+        height: 40px;
+        margin-bottom: 4px;
+    }
+    .hero-search-container .hero-search-btn-container .btn-select{
+        width: 80%;
+        height: 40px;
+        margin-bottom: 4px;
+    }
+    .hero-search-container .hero-search-btn-container .btn-find{
+        width: 80%;
+        height: 40px;
+        margin-bottom: 4px;
+    }
+    .popularTourContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .popularTourContainer .popularTourcontent {
+        width: 90%;
+        text-align: left;
+    }
+    .pppara{
+        width: 100%;
+    }
+    .popularTour{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .ppbtn{
+        margin-bottom: 3%;
+    }
+    .destinfirstdiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    }
+    .destinsecndiv, .destinthirddiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    
+    }
+    .destincontainerdiv .destinsecndiv .seconddivfirst-sebu {
+        width: 100%;
+        padding: 0px;
+    }
+    .destincontainerdiv .destinsecndiv .seconddivfirst-sultan{
+        width: 100%;
+    }
+    .whychoosing-service {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        align-items: center;
+    }
+    .whychoosing-container .whychoosing-description {
+        width: 100%;
+        /* text-align: center; */
+        margin-left: 4%;
+    }
+    .hotel, .worldclass-service {
+        width: 90%; 
+        height: 200px;
+    }
+    .bestprice {
+        width: 100%;
+        height: 200px;
+        margin-left: -25px;
+        padding-left: 0px;
+    }
+    .dealscontainer .dealsdescription {
+        width: 100%;
+        height: 200px;
+        justify-self: center;
+    }
+    .dealscontainer .tourtosebu {
+        width: 100%;
+        height: 40.0rem;
+    }
+    .dealscontainer .boholtour {
+        width: 100%;
+        height: 40.0rem;
+    }
+    .dealscontainer .borakaytour {
+        width: 100%;
+        height: 40.0rem;
+    }
+    .simple-perfect-place-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .simple-perfect-place-container .place-title {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .simple-perfect-place-container .videoclip{
+        width: 100%;
+    }.newsletter-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .newsletter-container .form {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter-container .form .form-title {
+        text-align: left;
+        margin-left: 2.0rem;
+    }
+    .newsletter-container .newsletter-image {
+        width: 100%;
+    }
+    .newsletter-container .newsletter-image .saveup-btn {
+        width: 45%;
+        height: auto;
+        position: relative;
+        left: 56%;
+        top: -104px;
+        transform: rotate(-30deg);
+
+    }
+    .footer-container {
+        text-align: center;
+    }
+    .footer-container .footerpara {
+        width: 80%;
+        margin: 4px auto;
+        
+    }
+
+}
+@media screen and (min-width:600px) and (max-width:1486px) {
+    .headersect , .popularTour, .destination, .whychoosing-container, .deals, .simple-perfect-place, .newsletter  {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .navcontainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 26%;
+    }
+    hero-search-title {
+        color: var(--paragraph-text-color);
+        font-size: 2.0rem;
+    }
+    .hero-search-para {
+        color: var(--paragraph-text-color);
+        font-size: 1.0rem;
+        width: 60%;
+        margin-left: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .hero-search-btn-container {
+        background-color: var(--hero-search-btn-container-bgcolor);
+        width: 50%;
+        margin: 0 auto;
+        height: 12%;
+        padding-top: 5px;
+        padding-right: 8px;
+        border-radius: 5px;
+    }
+    .btn-where, .btn-when, .btn-select, .btn-find {
+        width: 21%;
+        height: 90%;
+        border: none;
+        border-radius: 5px;
+        margin-left: 15px;
+    }
+    .btn-find, .ppbtn{
+        background-color: #FF5400;
+        border: none;
+    }
+    /* popular tour section styles */
+    .popularTour {
+        margin-top: 70px;
+    }
+    .popularTourContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+    .popularTourcontent {
+        width: 50%;
+        padding-right: 40px;
+    }
+    .ppimage {
+        padding-left: 30px;
+    }
+    .pptitle , .pppara, .ppul{
+        padding-bottom: 25px;
+    }
+    li {
+        padding-bottom: 8px;
+    }
+    .ppbtn {
+        font-size: 1.rem;
+        color: white;
+        width: 110px;
+        height: 35px;
+        text-align: center;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+    
+    }
+    /* destination section style */
+    .destincontainerdiv {
+        margin-top: 70px;
+        text-align: center;
+    }
+    .destinfirstdiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+    
+        
+    }
+    .firstdivfirst {
+        background-image: url(Images/Rectangle\ 5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* width: 50%; */
+        height: 300px;
+        border: none;
+        border-radius: 10px;
+    }
+    .firstdivsecond {
+        background-image: url(Images/Rectangle\ 8.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        /* width: 50%; */
+        height: 300px;
+        border: none;
+        border-radius: 10px;
+    }
+    .headingfirst, .takbilaran {
+        margin-top: 26%;
+        font-size: 20px;
+        color: var(--paragraph-text-color);
+    }
+    .destinsecndiv {
+        display: grid;
+        grid-template-columns:310px 400px 310px;
+        column-gap: 10px;
+        margin-top: 10px;
+    }
+    .seconddivfirst-sebu {
+        background-image: url(Images/Rectangle\ 6.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        border: none;
+        border-radius: 5px;
+    }
+    .seconddivfirst-davao {
+        background-image: url(Images/Rectangle\ 7.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        border: none;
+        border-radius:5px;
+    
+    }
+    .seconddivfirst-sultan {
+        background-image: url(Images/Rectangle\ 9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        border: none;
+        border-radius:5px;
+    }
+    .sebu, .sultan {
+        margin-top: 45%;
+        font-size: 20px;
+        color: var(--paragraph-text-color);
+    }
+    .davao {
+        margin-top: 38%;
+        font-size: 20px;
+        color: var(--paragraph-text-color);
+    }
+    .destinthirddiv {
+        display: grid;
+        grid-template-columns:450px repeat(1, 1fr);
+        column-gap: 10px;
+        margin-top: 10px;
+    }
+    .thirddivfirst-palawan {
+        background-image: url(Images/Rectangle\ 11.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        border: none;
+        border-radius:5px;
+    }
+    .thirddivsecond-solo {
+        background-image: url(Images/Rectangle\ 10.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 300px;
+        border: none;
+        border-radius:5px;
+    }
+    .palawan {
+        margin-top: 34%;
+        font-size: 20px;
+        color: var(--paragraph-text-color);
+    }
+    .solo {
+        margin-top: 28%;
+        font-size: 20px;
+        color: var(--paragraph-text-color);
+    }
+    .whychoosing-container {
+        text-align: center;
+        margin-top: 70px;
+    }
+    .whychoosing-description {
+        padding-bottom: 50px;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .whychoosing-service {
+        display: flex;
+        column-gap: 40px;
+    }
+    .hotel, .worldclass-service {
+        width: 50%;
+        height: 200px;
+        text-align: left;
+        padding: 40px;
+        
+        
+    }
+    .hotel{
+        background-color: aliceblue;
+        border: 2px solid aliceblue;
+    }
+    .worldclass-service {
+        background-color: azure;
+        border: 2px solid azure;
+    }
+    .hotellogo, .servicelogo {
+        width: 5rem;
+        height: 5rem;
+        border: none;
+        border-radius: 50%;
+    }
+    .bestprice {
+        width: 50%;
+        height: 200px;
+        text-align: left;
+        padding: 40px;
+        margin-top: 30px;
+        margin-left: 25%;
+        background-color: azure;
+        border: 2px solid azure;
+    }
+    .bestpricelogo {
+        width: 5rem;
+        height: 5rem;
+        border: none;
+        border-radius: 50%; 
+    }
+    /* Deals and Discount section */
+    .deals {
+        margin-top: 70px;
+    }
+    .dealscontainer {
+        text-align: center;
+    }
+    .dealstitle {
+        font-size: 2rem;
+        padding-bottom: 40px;
+    }
+    .dealsdescription {
+        padding-bottom: 50px;
+        width: 50%;
+        margin:auto;
+    }
+    .tourtosebu, .borakaytour {
+        background-image: url(Images/cebu.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        width: 80%;
+        height: 400px;
+        margin: 30px auto;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 50px;
+        
+    
+    }
+    .sebutourdetails, .bora-tourdetails {
+        text-align: left;
+        padding: 30px 60px;
+    }
+    .vacation-details, .bora-vacation-details {
+        display: flex;
+        column-gap: 30px;
+    }
+    .cebutitledetails, .boholtitledetails, .bora-titledetails {
+        color: var(--menuetext-color);
+    }
+    .cebutourprice, .boholtourprice, .bora-tourprice {
+        font-size: 19px;
+        color: var(--orange-color);
+        padding-bottom: 20px;
+    }
+    .cebubookingbtn, .boholbookingbtn, .bora-bookingbtn {
+        background-color: #FF5400;
+        font-size: 2.0rem;
+        color: white;
+        width: 170px;
+        height: 60px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+    }
+    
+    .sebutourdetails, .bora-tourdetails {
+        background-color:rgba(255, 255, 255, 0.546);
+        width: 45%;
+        height: 70%;
+        border: none;
+        border-radius: 10px;
+        margin-top: 10px;
+        
+    }
+    .watch, .max, .place{
+        color: var(--orange-color);
+    }
+    .vacation-description, .bora-vacation-description {
+        color: var(--menuetext-color);
+    }
+    .boholtour {
+        background-image: url(Images/boholchocomed.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+    
+        width: 80%;
+        height: 400px;
+        margin: 30px auto;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 50px;
+    
+        
+    }
+    .boholtourdetails {
+        background-color:rgba(255, 255, 255, 0.562);
+        width: 45%;
+        height: 70%;
+        border: none;
+        padding: 20px 50px;
+        text-align: left;
+        border-radius: 10px;
+    }
+    .bohol-vacation {
+        display: flex;
+        column-gap: 30px;
+    }
+    .bohol-vacation {
+        color: var(--menuetext-color);
+    
+    }
+    .borakaytour {
+        background-image: url(Images/Boracay_White_Beach.png);
+    }
+    
+    /* end styling deals and discounts */
+    /* simple perfect place styling */
+    .simple-perfect-place {
+        text-align: center;
+    }
+    .simple-perfect-place-container {
+        display: flex;
+        /* align-content:left; */
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .place-title {
+        width: 50%;
+        height: auto;
+        padding: 50px;
+        text-align: left;
+    }
+    .videoclip{
+        width: 50%;
+        height: auto;
+       
+    }
+    .videoclipclass {
+        border: none;
+        border-radius: 10px;
+    }
+    .place-description {
+        color: var(--menuetext-color);
+    }
+    .btn-seemore{
+        background-color: #FF5400;
+        font-size: 1.5rem;
+        color: white;
+        width: 150px;
+        height: 45px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+    }
+    .see-all-products{
+        background-color: #FF5400;
+        font-size: 1.0rem;
+        color: white;
+        width: 160px;
+        height: 40px;
+        text-align: center;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+    }
+    .newsletter{
+        margin-top: 70px;
+    }
+    .newsletter-container{
+        display: flex;
+        padding: 5px;
+    }
+    .form {
+        width: 50%;
+        height: auto;
+        text-align: left;
+        padding-right: 5px;
+        border: 0.1rem solid #FF5400;
+        border-radius: 0.5rem;
+    }
+    .form-input {
+        width: 100%;
+    }
+    #name, #email{
+        background-color: var(--newslette-input-color);
+        width: 80%;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .subscribe {
+        background-color: var(--orange-color);
+        color: white;
+        width: 80%;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .newsletter-image {
+        width: 50%;
+        height: auto;
+        text-align: left;
+        padding-right: 5px;
+    }
+    .news-image{
+        width: 100%;
+        padding: 5px;
+    }
+    .saveup-btn {
+        background-color: var(--orange-color);
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 5px;
+        position: relative;
+        left: 300px;
+        top: -128px;
+        transform: rotate(-32deg);
+        width: 200px;
+        height: 70px;
+       
+    
+    }
+    .footer-section {
+        background-color: var(--hero-search-btn-container-bgcolor);
+    }
+    .footer-container {
+        text-align: center;
+    }
+    .social-icons ul{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+    .social-icons ul li{
+        list-style: none;
+    }
+    .fbicon, .twit, .inst, .gith {
+        width: auto;
+        height: 70px;
+        color: var(--orange-color);
+    }
+    
+    
+}
