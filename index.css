@@ -24,10 +24,16 @@
     align-items: center;
     gap: 26%;
 }
+.navimg{
+    text-align: center;
+}
 .menue {
     display: flex;
     margin-left: 5%;
     
+}
+.hamburger {
+    display:none;
 }
 a {
     text-decoration: none;
